@@ -14,7 +14,7 @@ public with sharing class HouseService {
                    FROM House__c
                    WITH SECURITY_ENFORCED
                    ORDER BY CreatedDate
-                   LIMIT 10
+                   LIMIT 20
                 ];
                   return lstHouses;
         }
